@@ -19,7 +19,7 @@ hi CursorLine       cterm=NONE      guifg=NONE      guibg=#353b4a   ctermbg=237 
 hi CursorColumn     guifg=NONE      guibg=#353b4a   ctermbg=237     gui=NONE
 hi ColorColumn      guifg=NONE      guibg=#353b4a   ctermbg=237     gui=NONE
 hi LineNr           guifg=#747d8e   ctermfg=244     guibg=#353b4a   gui=NONE
-hi VertSplit        guifg=#535a6a   ctermfg=59      guibg=#535a6a   gui=NONE
+hi VertSplit        guifg=#535a6a   ctermfg=59      guibg=#535a6a   ctermbg=59      gui=NONE
 hi MatchParen       cterm=underline guifg=#ffffff   ctermfg=15      guibg=NONE      gui=underline
 hi StatusLine       cterm=bold      guifg=#c3cee3   ctermfg=252     guibg=#535a6a   gui=bold
 hi StatusLineNC     guifg=#c3cee3   ctermfg=252     guibg=#535a6a   gui=NONE
@@ -91,11 +91,11 @@ hi rubyRailsARAssociationMethod         guifg=#8be9ee   ctermfg=117 guibg=NONE g
 hi rubyInterpolationDelimiter           guifg=NONE      guibg=NONE  gui=NONE
 
 " HTML
-hi htmlTag      guifg=NONE  guibg=NONE      gui=NONE
-hi htmlEndTag   guifg=NONE  guibg=NONE      gui=NONE
-hi htmlTagName  guifg=NONE  guibg=NONE      gui=NONE
-hi htmlArg      guifg=NONE  guibg=NONE      gui=NONE
-hi htmlSpecialChar          guifg=#d67c9b   ctermfg=174 guibg=NONE gui=NONE
+hi htmlTag         guifg=#7081be   ctermfg=67      guibg=NONE      gui=NONE
+hi htmlTagName     guifg=#8be9ee   ctermfg=117     guibg=NONE      gui=NONE
+hi htmlEndTag      guifg=NONE      guibg=NONE      gui=NONE
+hi htmlArg         guifg=#c3cee3   ctermfg=252     guibg=NONE      ctermbg=NONE gui=NONE
+hi htmlSpecialChar guifg=#d67c9b   ctermfg=174     guibg=NONE      gui=NONE
 
 " Javascript
 hi javaScriptFunction           guifg=#d3afc5   ctermfg=182 guibg=NONE gui=italic
