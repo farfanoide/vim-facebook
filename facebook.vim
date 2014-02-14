@@ -90,12 +90,20 @@ hi rubyRailsRenderMethod                guifg=#8be9ee   ctermfg=117 guibg=NONE g
 hi rubyRailsARAssociationMethod         guifg=#8be9ee   ctermfg=117 guibg=NONE gui=NONE
 hi rubyInterpolationDelimiter           guifg=NONE      guibg=NONE  gui=NONE
 
+" PHP
+hi phpMethodsVar    guifg=#c3cee3   ctermfg=252     guibg=NONE  ctermbg=NONE gui=NONE
+hi phpIdentifier    guifg=#8dc4f0   ctermfg=117     guibg=NONE  gui=NONE
+hi phpVarSelector   guifg=#8dc4f0   ctermfg=117     guibg=NONE  gui=NONE
+hi phpStorageClass  guifg=#d3afc5   ctermfg=182     guibg=NONE  gui=italic
+hi phpStringSingle  guifg=#d5d5ca   ctermfg=252     guibg=NONE  gui=NONE
+
 " HTML
 hi htmlTag         guifg=#7081be   ctermfg=67      guibg=NONE      gui=NONE
 hi htmlTagName     guifg=#8be9ee   ctermfg=117     guibg=NONE      gui=NONE
 hi htmlEndTag      guifg=NONE      guibg=NONE      gui=NONE
 hi htmlArg         guifg=#c3cee3   ctermfg=252     guibg=NONE      ctermbg=NONE gui=NONE
 hi htmlSpecialChar guifg=#d67c9b   ctermfg=174     guibg=NONE      gui=NONE
+hi htmlString      guifg=#d5d5ca   ctermfg=252     guibg=NONE      gui=NONE
 
 " Javascript
 hi javaScriptFunction           guifg=#d3afc5   ctermfg=182 guibg=NONE gui=italic
