@@ -14,7 +14,7 @@ let g:colors_name = "Facebook"
 
 "General
 hi Cursor           guifg=#252b39   ctermfg=236     guibg=#979e86   gui=NONE
-hi Visual           guifg=NONE      guibg=#1a1f29   ctermbg=234     gui=NONE
+hi Visual           cterm=NONE      guifg=NONE      guibg=#353b4a   ctermbg=237     gui=NONE
 hi CursorLine       cterm=NONE      guifg=NONE      guibg=#353b4a   ctermbg=237     gui=NONE
 hi CursorColumn     guifg=NONE      guibg=#353b4a   ctermbg=237     gui=NONE
 hi ColorColumn      guifg=NONE      guibg=#353b4a   ctermbg=237     gui=NONE
@@ -69,7 +69,7 @@ hi rubySymbol           guifg=#abd683   ctermfg=150     guibg=NONE  gui=NONE
 hi rubyConstant         guifg=#e3c78a   ctermfg=186     guibg=NONE  gui=NONE
 hi rubyStringDelimiter  guifg=#d5d5ca   ctermfg=252     guibg=NONE  gui=NONE
 hi rubyBlockParameter   guifg=#18c9c9   ctermfg=6       guibg=NONE  gui=italic
-hi rubyInstanceVariable guifg=#b3b2a2   ctermfg=145     guibg=NONE  gui=NONE
+hi rubyInstanceVariable guifg=#7081be   ctermfg=67      guibg=NONE  gui=NONE
 hi rubyInclude          cterm=bold      guifg=#ffffff   ctermfg=15  guibg=NONE  gui=bold
 hi rubyGlobalVariable   guifg=#8dc4f0   ctermfg=117     guibg=NONE  gui=NONE
 hi rubyRegexp           guifg=#18c9c9   ctermfg=6       guibg=NONE  gui=NONE
@@ -86,9 +86,11 @@ hi rubyRailsMethod      guifg=#8be9ee   ctermfg=117     guibg=NONE  gui=NONE
 hi erubyDelimiter       guifg=NONE      guibg=NONE      gui=NONE
 hi erubyComment         guifg=#7081be   ctermfg=67      guibg=NONE  gui=NONE
 hi erubyRailsMethod     guifg=#8be9ee   ctermfg=117     guibg=NONE  gui=NONE
+hi rubyMethodDeclaration                guifg=#8be9ee   ctermfg=117 guibg=NONE      gui=NONE
 hi rubyRailsRenderMethod                guifg=#8be9ee   ctermfg=117 guibg=NONE gui=NONE
 hi rubyRailsARAssociationMethod         guifg=#8be9ee   ctermfg=117 guibg=NONE gui=NONE
 hi rubyInterpolationDelimiter           guifg=NONE      guibg=NONE  gui=NONE
+
 
 " PHP
 hi phpMethodsVar    guifg=#c3cee3   ctermfg=252     guibg=NONE  ctermbg=NONE gui=NONE
@@ -103,7 +105,7 @@ hi htmlTagName     guifg=#8be9ee   ctermfg=117     guibg=NONE      gui=NONE
 hi htmlEndTag      guifg=NONE      guibg=NONE      gui=NONE
 hi htmlArg         guifg=#c3cee3   ctermfg=252     guibg=NONE      ctermbg=NONE gui=NONE
 hi htmlSpecialChar guifg=#d67c9b   ctermfg=174     guibg=NONE      gui=NONE
-hi htmlString      guifg=#d5d5ca   ctermfg=252     guibg=NONE      gui=NONE
+hi htmlString      guifg=#d67c9b   ctermfg=174     guibg=NONE      gui=NONE
 
 " Javascript
 hi javaScriptFunction           guifg=#d3afc5   ctermfg=182 guibg=NONE gui=italic
