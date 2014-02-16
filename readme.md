@@ -5,6 +5,10 @@ Original Sublimem Color Scheme [ here ]( https://github.com/mbixby/facebook-colo
 MacVim:
 ![fcs-macvim](facebook-colour-scheme.png)
 
+Installation:
+  - Just place it in ~/.vim/colors/
+  - add "colorscheme facebook" to your ~/.vimrc
+
 ### Thanks:
   - [sickill](https://github.com/sickill/coloration)
   - [shawncplus](http://github.com/shawncplus/Vim-toCterm)
