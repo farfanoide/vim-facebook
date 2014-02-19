@@ -47,7 +47,7 @@ hi Function         guifg=#8be9ee   ctermfg=117     guibg=NONE      gui=NONE
 hi Identifier       guifg=#d3afc5   ctermfg=182     guibg=NONE      gui=italic
 hi Keyword          cterm=bold      guifg=#ffffff   ctermfg=15      guibg=NONE      gui=bold
 hi Label            guifg=#d5d5ca   ctermfg=252     guibg=NONE      gui=NONE
-hi NonText          guifg=#ff0000   ctermfg=9       guibg=#2d3342   gui=NONE
+hi NonText          guifg=#747d8e   ctermfg=244     guibg=#353b4a   gui=NONE
 hi Number           guifg=#18c9c9   ctermfg=6       guibg=NONE      gui=NONE
 hi Operator         cterm=bold      guifg=#e4eaf0   ctermfg=7       guibg=NONE      gui=bold
 hi PreProc          cterm=bold      guifg=#ffffff   ctermfg=15      guibg=NONE      gui=bold
@@ -86,7 +86,7 @@ hi rubyRailsMethod      guifg=#8be9ee   ctermfg=117     guibg=NONE  gui=NONE
 hi erubyDelimiter       guifg=NONE      guibg=NONE      gui=NONE
 hi erubyComment         guifg=#7081be   ctermfg=67      guibg=NONE  gui=NONE
 hi erubyRailsMethod     guifg=#8be9ee   ctermfg=117     guibg=NONE  gui=NONE
-hi rubyMethodDeclaration                guifg=#8be9ee   ctermfg=117 guibg=NONE      gui=NONE
+hi rubyMethodDeclaration                guifg=#8be9ee   ctermfg=117 guibg=NONE gui=NONE
 hi rubyRailsRenderMethod                guifg=#8be9ee   ctermfg=117 guibg=NONE gui=NONE
 hi rubyRailsARAssociationMethod         guifg=#8be9ee   ctermfg=117 guibg=NONE gui=NONE
 hi rubyInterpolationDelimiter           guifg=NONE      guibg=NONE  gui=NONE
@@ -97,7 +97,7 @@ hi phpMethodsVar    guifg=#c3cee3   ctermfg=252     guibg=NONE  ctermbg=NONE gui
 hi phpIdentifier    guifg=#8dc4f0   ctermfg=117     guibg=NONE  gui=NONE
 hi phpVarSelector   guifg=#8dc4f0   ctermfg=117     guibg=NONE  gui=NONE
 hi phpStorageClass  guifg=#d3afc5   ctermfg=182     guibg=NONE  gui=italic
-hi phpStringSingle  guifg=#d5d5ca   ctermfg=252     guibg=NONE  gui=NONE
+hi phpStringSingle  guifg=#e3c78a   ctermfg=186     guibg=NONE  gui=NONE
 
 " HTML
 hi htmlTag         guifg=#7081be   ctermfg=67      guibg=NONE      gui=NONE
