@@ -55,7 +55,7 @@ hi Special          guifg=#c3cee3   ctermfg=252     guibg=NONE      gui=NONE
 hi SpecialKey       guifg=#ff0000   ctermfg=9       guibg=#353b4a   gui=NONE
 hi Statement        cterm=bold      guifg=#ffffff   ctermfg=15      guibg=NONE      gui=bold
 hi StorageClass     guifg=#d3afc5   ctermfg=182     guibg=NONE      gui=italic
-hi String           guifg=#d5d5ca   ctermfg=252     guibg=NONE      gui=NONE
+hi String           guifg=#e3c78a   ctermfg=186     guibg=NONE      gui=NONE
 hi Tag              guifg=#8db3ff   ctermfg=111     guibg=NONE      gui=NONE
 hi Title            cterm=bold      guifg=#c3cee3   ctermfg=252     guibg=NONE      gui=bold
 hi Type             guifg=#e3c78a   ctermfg=186     guibg=NONE      gui=NONE
@@ -127,3 +127,7 @@ hi cssClassName     guifg=#96fbff   ctermfg=123 guibg=NONE gui=NONE
 hi cssValueLength   guifg=#18c9c9   ctermfg=6   guibg=NONE gui=NONE
 hi cssCommonAttr    guifg=#c3cee3   ctermfg=252 guibg=NONE gui=NONE
 hi cssBraces        guifg=NONE      guibg=NONE  gui=NONE
+
+" Nerdtree
+hi NERDTreeDir        guifg=#8db3ff   ctermfg=111  guibg=NONE   ctermbg=NONE  gui=NONE
+hi NERDTreeDirSlash   guifg=#8db3ff   ctermfg=111  guibg=NONE   ctermbg=NONE  gui=NONE
