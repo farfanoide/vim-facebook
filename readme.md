@@ -62,4 +62,6 @@ Contributing:
 [here]: https://github.com/mbixby/facebook-color-scheme
 [sickill]: https://github.com/sickill/coloration
 [shawncplus]: http://github.com/shawncplus/Vim-toCterm
-
+[vim-plug]: https://github.com/junegunn/vim-plug
+[vundle]: https://github.com/VundleVim/Vundle.vim
+[dein]: https://github.com/Shougo/dein.vim
